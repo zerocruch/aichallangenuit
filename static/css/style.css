@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    height: 100vh;
+ /* White text on top of the background image */
+}
+
+h1 {
+    color: #077713;
+    padding-top: 15px;
+    width: fit-content;
+    margin: 0 auto; /* Center the h1 element using margin */
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+input[type="text"]{
+    width: 60%;
+    padding: 8px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+div img {
+    max-width: 80%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.additional-info {
+    color: #666;
+    border: none;
+    width: 60%;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+input[type="text"],
+textarea,
+div {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+button {
+    background-color: #077713; 
+    color: #fff; 
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #37b529; 
+}
