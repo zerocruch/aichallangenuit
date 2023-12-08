@@ -13,7 +13,7 @@ with open("multinomial_naive_bayes_model.pkl", "rb") as f:
 with open("cv.pkl", "rb") as f:
     cv = joblib.load(f)
 
-key="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"
+key=""
 openai.api_key=key
 system_message = {"role": "system", "content": "You are a helpful assistant."}
 max_response_tokens = 250
